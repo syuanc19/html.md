@@ -43,7 +43,7 @@
 ```
 **效果：**
 
-<table align="center" border="1" cellpadding="1" cellspacing="0" width="50" height="50">
+<table>
 	<thead>
 		<tr>
 			<th> 标题单元格1 </th>
