@@ -24,7 +24,7 @@
 > 表格最好用来展示数据，而非用来布局
 
 ```html
-<table align="center" border="1" cellpadding="1" cellspacing="0" width="250" height="250">
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="500" height="500">
 	<thead>
 		<tr>
 			<th> 标题单元格1 </th>
