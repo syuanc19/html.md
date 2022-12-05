@@ -105,8 +105,8 @@ align、bgcolor、border、cellpadding、cellspacing
 
 | method = get                                                 | method = post                                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="https://github.com/syuanc19/Image-Hosting/blob/main/image-20221204031948665.png"> | ![image-20221204032010539](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20221204032010539.png) |
-| ![image-20221204032133880](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20221204032133880.png) | ![image-20221204032205692](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20221204032205692.png) |
+| <img src="https://github.com/syuanc19/Image-Hosting/blob/main/image-20221204031948665.png"> | <img src="https://github.com/syuanc19/Image-Hosting/blob/main/image-20221204032010539.png"> |
+| /xxx.php?username=syuan19&pwd=a140472 | /xxx.php |
 
 ## 4-1 input
 
