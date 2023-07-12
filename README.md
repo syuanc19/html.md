@@ -16,6 +16,46 @@
 
 ------
 
+# 基礎文本格式
+<table>
+	<thead>
+		<tr>
+			<th>標籤</th>
+			<th>效果</th>
+		</tr>
+	</thead>
+ 	<tbody>
+		<tr>
+			<td>&lt;strong&gt;, &lt;b&gt;</td>
+			<td><strong>加粗</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;em&gt;, &lt;i&gt;</td>
+			<td><em>傾斜</em></td>
+		</tr>
+		<tr>
+			<td>&lt;ins&gt;, &lt;u&gt;</td>
+			<td><ins>下划線</ins></td>
+		</tr>
+		<tr>
+			<td>&lt;del&gt;, &lt;s&gt;</td>
+			<td><del>刪除線</del></td>
+		</tr>
+	</tbody>
+ 
+</table>
+
+## 圖像標籤
+&lt;img src="圖像url" alt="替代文字" title="懸停時提示文字&gt;
+## 音頻標籤
+
+&lt;audio src="音頻url" controls&gt;<br>
+屬性：
+controls 控制面板
+loop 循環播放
+autoplay 自動播放
+------
+
 # **表格** 
 
 > 表格最好用来展示数据，而非用来布局
@@ -71,7 +111,7 @@
 
 align、bgcolor、border、cellpadding、cellspacing
 
-## 2-2 合并表格
+## 合并表格
 |     标签名     |  含义  |
 | :------------: | :----: |
 | `colspan=数字` | 行合并 |
