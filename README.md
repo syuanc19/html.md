@@ -47,13 +47,26 @@
 
 ## 圖像標籤
 &lt;img src="圖像url" alt="替代文字" title="懸停時提示文字&gt;
-## 音頻標籤
+<br>
 
-&lt;audio src="音頻url" controls&gt;<br>
+## 音頻標籤
+&lt;audio src="音頻的路徑" controls&gt;<br><br>
 屬性：
-controls 控制面板
-loop 循環播放
-autoplay 自動播放
+<ul>
+	<li>controls 控制面板</li>
+	<li>loop 循環播放</li>
+	<li>autoplay 自動播放</li>
+</ul>
+
+## 影片標籤
+&lt;video src="影片的路徑" controls&gt;<br><br>
+屬性：
+<ul>
+	<li>controls 控制面板</li>
+	<li>loop 循環播放</li>
+	<li>autoplay 自動播放</li>
+	<li>muteplay 靜音播放</li>
+</ul>
 ------
 
 # **表格** 
