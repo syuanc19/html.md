@@ -194,7 +194,7 @@ align、bgcolor、border、cellpadding、cellspacing
    <tr>
        <td>button</td><br>
        <td>可点击按钮</td>
-       <td><input type="button" name="button" value="我是按钮"></td>
+       <td><img src="https://raw.githubusercontent.com/syuanc19/picbed/main/2023/07/upgit_20230713_1689186646.png"></td>
     </tr>
     <tr>
         <td>checkbox</td>
