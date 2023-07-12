@@ -1,5 +1,5 @@
 # html.md
-# 1、**基本结构**
+# **基本结构**
 
 ```html
 <!DOCTYPE html>
@@ -16,7 +16,7 @@
 
 ------
 
-# **2、表格** 
+# **表格** 
 
 > 表格最好用来展示数据，而非用来布局
 
@@ -65,7 +65,7 @@
 | `th`            | [th] 标题标签(自动置中加粗)             |
 | `tr`,`td` | [tr] 行标签、[td] 内文标签 |
 
-## 2-1 table属性
+## table属性
 
 > (弃用) 因后续会在`CSS`里设置
 
@@ -79,7 +79,7 @@ align、bgcolor、border、cellpadding、cellspacing
 
 <hr>
 
-# **3、自定义列表**
+# **自定义列表**
 
 ```html
 <dl>
@@ -94,7 +94,7 @@ align、bgcolor、border、cellpadding、cellspacing
 
 ------
 
-# **4、表单**
+# **表单**
 
 ```html
 <form action="url地址" method="get/post" name="表单域名称">
@@ -105,7 +105,7 @@ align、bgcolor、border、cellpadding、cellspacing
 | <img src="https://github.com/syuanc19/Image-Hosting/blob/main/image-20221204031948665.png"> | <img src="https://github.com/syuanc19/Image-Hosting/blob/main/image-20221204032010539.png"> |
 | /xxx.php?username=syuan19&pwd=a140472 | /xxx.php |
 
-## 4-1 input
+## input
 
 ```html
 <input type="属性" name="name" value="value" checked="checked">
@@ -177,7 +177,7 @@ align、bgcolor、border、cellpadding、cellspacing
 </table>
 <hr>
 
-## 4-2 Label标签
+## Label标签
 
 ```html
 <input type="text" id="指定id"> <Label for="指定id"> 用户名: </Label> 
@@ -188,7 +188,7 @@ align、bgcolor、border、cellpadding、cellspacing
 
 
 
-## 4-3 select列表
+## select列表
 
 <table>
 	<form>
@@ -249,7 +249,7 @@ align、bgcolor、border、cellpadding、cellspacing
 
 
 
-## 4-4 textarea文本域
+## textarea文本域
 
 <table>
 	<tr>
@@ -269,7 +269,7 @@ align、bgcolor、border、cellpadding、cellspacing
 	</tr>
 </table>
 
-### 4-4-1 textarea属性
+### textarea属性
 
 > 一般不用，会在`CSS`里改
 
