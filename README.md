@@ -1,5 +1,5 @@
 # html.md
-# **基本结构**
+# 基本结构
 
 ```html
 <!DOCTYPE html>
@@ -50,7 +50,7 @@
 <br>
 
 ## 音頻標籤
-&lt;audio src="音頻的路徑" controls&gt;<br><br>
+&lt;audio src="音頻url" controls&gt;<br><br>
 屬性：
 <ul>
 	<li>controls 控制面板</li>
@@ -59,7 +59,7 @@
 </ul>
 
 ## 影片標籤
-&lt;video src="影片的路徑" controls&gt;<br><br>
+&lt;video src="影片url" controls&gt;<br><br>
 屬性：
 <ul>
 	<li>controls 控制面板</li>
@@ -67,10 +67,25 @@
 	<li>autoplay 自動播放</li>
 	<li>muteplay 靜音播放</li>
 </ul>
+
 ------
 
+## 路徑- 相對與絕對<br>
+相對路徑：從&nbsp;<strong>當前文件位置</strong>&nbsp;出發尋找目標<br>
+&nbsp;<strong>/</strong>&nbsp;表示進入某個文件夾裡面<br>
+&nbsp;<strong>.</strong>&nbsp;表示當前文件所在的資料夾<br>
+&nbsp;<strong>..</strong>&nbsp;代表上一級<br>
+> e.g. ../../example/a.jpg 訪問以當前位置為主，上上個資料夾的example裡的a.jpg<br>
+
+絕對路徑：從&nbsp;<strong>硬碟</strong>&nbsp;出發尋找目標(windows從硬碟出發，Mac從根目錄出發)<br>
+
+> e.g. F:\User\Desktop\example.jpg<br>
+
+
+------
 # **表格** 
 
+> table嵌套tr, tr嵌套 th/td, thead與 tbody則用來使語法更工整 <br>
 > 表格最好用来展示数据，而非用来布局
 
 ```html
