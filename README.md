@@ -46,11 +46,11 @@
 </table>
 
 ## 圖像標籤
-&lt;img src="圖像url" alt="替代文字" title="懸停時提示文字&gt;
+`<img src="圖像url" alt="替代文字" title="懸停時提示文字>`
 <br>
 
 ## 音頻標籤
-&lt;audio src="音頻url" controls&gt;<br><br>
+`<audio src="音頻url" control>` <br><br>
 屬性：
 <ul>
 	<li>controls 控制面板</li>
@@ -59,7 +59,7 @@
 </ul>
 
 ## 影片標籤
-&lt;video src="影片url" controls&gt;<br><br>
+`<video src="影片url" controls>`<br><br>
 屬性：
 <ul>
 	<li>controls 控制面板</li>
